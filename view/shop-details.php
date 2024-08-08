@@ -20,14 +20,14 @@ $listImg = explode(", ", $anh_san_pham)
 			</div>
 
 			<div id="content" class="site-content" role="main">
-				<div class="shop-details zoom" data-product_layout_thumb="scroll" data-zoom_scroll="true" data-zoom_contain_lens="true" data-zoomtype="inner" data-lenssize="200" data-lensshape="square" data-lensborder="" data-bordersize="2" data-bordercolour="#f9b61e" data-popup="false">
+				<div class="shop-details " data-product_layout_thumb="scroll" data-zoom_scroll="true" data-zoom_contain_lens="true" data-zoomtype="inner" data-lenssize="200" data-lensshape="square" data-lensborder="" data-bordersize="2" data-bordercolour="#f9b61e" data-popup="false">
 					<div class="product-top-info">
 						<div class="section-padding">
 							<div class="section-container p-l-r">
 								<div class="row">
-									<div class="product-images col-lg-7 col-md-12 col-12">
+									<div class="product-images col-md-5">
 										<div class="row">
-											<div class="col-md-2">
+											<div class="col-md-3">
 												<div class="content-thumbnail-scroll">
 													<div class="image-thumbnail slick-carousel slick-vertical" data-asnavfor=".image-additional" data-centermode="true" data-focusonselect="true" data-columns4="5" data-columns3="4" data-columns2="4" data-columns1="4" data-columns="4" data-nav="true" data-vertical="&quot;true&quot;" data-verticalswiping="&quot;true&quot;">
 														<?php foreach ($listImg as $img) : ?>
@@ -41,8 +41,10 @@ $listImg = explode(", ", $anh_san_pham)
 														<?php endforeach; ?>
 													</div>
 												</div>
+												
 											</div>
-											<div class="col-md-8">
+											
+											<div class="col-md-9">
 												<div class="scroll-image main-image">
 													<div class="image-additional slick-carousel" data-asnavfor=".image-thumbnail" data-fade="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns="1" data-nav="true">
 														<?php foreach ($listImg as $img) : ?>
